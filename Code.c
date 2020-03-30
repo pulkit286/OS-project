@@ -22,7 +22,7 @@ int assign(int x,int y)
 	{
 		if(s1[x]==1 || s2[x]==1)
 		{
-			printf("\n 2 student have doesn't resource.");
+			printf("\n 2 student have different resource.");
 			exit1();
 		}
 	}
@@ -67,7 +67,7 @@ void *student0()
 				}
 			else
 				{
-			printf(" A student is not configured to contain this.\n");
+			printf(" A student isn't configured to contain this.\n");
 		}}
 	}
 	pthread_mutex_unlock(&lockt);
@@ -93,7 +93,7 @@ void *student1()
 	}
 	else
 	{
-		printf(" A student is not configured to contain this.\n");
+		printf(" A student isn't configured to contain this.\n");
 	}}}
 	pthread_mutex_unlock(&lockt);
 }
