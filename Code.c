@@ -22,7 +22,7 @@ int assign(int x,int y)
 	{
 		if(s1[x]==1 || s2[x]==1)
 		{
-			printf("\n 2 student have different resource.");
+			printf("\n 2 student have doesn't resource.");
 			exit1();
 		}
 	}
