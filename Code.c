@@ -67,7 +67,7 @@ void *student0()
 				}
 			else
 				{
-			printf(" A student isn't configured to contain this.\n");
+			printf(" A student is not configured to contain this.\n");
 		}}
 	}
 	pthread_mutex_unlock(&lockt);
